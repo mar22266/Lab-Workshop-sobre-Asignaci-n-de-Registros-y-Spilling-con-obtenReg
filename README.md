@@ -1,4 +1,4 @@
-# Construcción de Compiladores — obtenReg (Mini README)
+# Construcción de Compiladores — obtenReg
 
 **Resumen:**  
 Este laboratorio implementa y demuestra obtenReg, un asignador de registros que decide cuándo reutilizar registros y cuándo hacer _spilling_ (derramar a memoria) al agotarse los registros; incluye ejemplos guiados sin/con _spilling_, una reescritura eficiente de TAC usando solo 3 registros (R1–R3) y la traducción de un bloque Java a código máquina respetando vida útil de variables. Se provee una implementación en Python con política simple (FIFO).
